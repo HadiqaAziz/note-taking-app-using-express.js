@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const {createNewNote} = require("../../lib/notes");
-const { v4: uuidv4 } = require('uuid');
+const { v4: uuid } = require('uuid');
 const {notes} = require("../../db/db.json");
 
 // show all notes in  db.json file
@@ -10,7 +10,7 @@ router.get("/notes", (req, res) => {
   }); 
 // update a new note in db.json file
   router.post("/notes", (req, res) => {
-    req.body.id = uuidv4();
+    req.body.id = uuid();
     const newNote = createNewNote(req.body, notes);
     res.json(newNote);
   });  
