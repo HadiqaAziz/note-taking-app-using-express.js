@@ -5,8 +5,8 @@ const {notes} = require("../../db/db.json");
 
 // show all notes in  db.json file
 router.get("/notes", (req, res) => {
-    let results = notes;
-    res.json(results);
+    let result = notes;
+    res.json(result);
   }); 
 // update a new note in db.json file
   router.post("/notes", (req, res) => {
