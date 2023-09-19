@@ -24,3 +24,6 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 # Heroku link to the deployed app
 [(https://note-taking-app-using-express-053d8b2b626c.herokuapp.com/notes)]
+# Commands to run this app in vscode
+npm i
+node server.js
