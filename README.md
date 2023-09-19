@@ -18,6 +18,9 @@ WHEN I click on an existing note in the list in the left-hand column
 THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+# Screenshot of deployed website
+<img width="958" alt="Screenshot 2023-09-18 170459" src="https://github.com/HadiqaAziz/note-taking-app-using-express.js/assets/2726317/549d7b05-78bd-405f-b1be-f3dda68603c1">
 
-# link to the deployed website
+
+# Heroku link to the deployed website
 [(https://note-taking-app-using-express-053d8b2b626c.herokuapp.com/notes)]
