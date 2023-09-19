@@ -22,7 +22,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 <img width="958" alt="Screenshot 2023-09-18 170459" src="https://github.com/HadiqaAziz/note-taking-app-using-express.js/assets/2726317/549d7b05-78bd-405f-b1be-f3dda68603c1">
 
 
-# Heroku link to the deployed app
+# Heroku link to the deployed app:
 [(https://note-taking-app-using-express-053d8b2b626c.herokuapp.com/notes)]
 # Commands to run this app in vscode
 npm i              <br/>
